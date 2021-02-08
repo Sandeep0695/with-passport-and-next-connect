@@ -13,6 +13,7 @@ const auth = nextConnect()
         secure: process.env.NODE_ENV === 'production',
         path: '/',
         sameSite: 'lax',
+        domain:"vercel.com"
       },
     })
   )
